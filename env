@@ -1,0 +1,2 @@
+MONGODB_URL=mongodb+srv://<username>:<password>@jacksonkasi.fwlzq.mongodb.net/Hospital-Management-System?retryWrites=true&w=majority
+SECRET_KEY=#%^67V000y(>J@q73!u
