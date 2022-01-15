@@ -55,7 +55,7 @@ function makeYesterdayMorningDate() {
 }
 
 function setTimeToMorning(date) {
-  date.setHours(7);
+date.setHours(1); //this india time zone based( 7 am ), so you set your time zone... :)
   date.setMinutes(0);
   date.setSeconds(0);
   date.setMilliseconds(0);
