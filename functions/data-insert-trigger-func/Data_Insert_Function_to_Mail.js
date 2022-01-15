@@ -46,8 +46,10 @@ exports = async function (changeEvent) {
         ],
         html: `
     <div style=" text-align: center;" >
-        <img src="cid:logo@" alt="logo"  
-        style=" width: 100%; height: 100px; margin-top: 10px;" />
+     
+     <img src="https://scontent.fixm1-1.fna.fbcdn.net/v/t39.8562-6/252294889_575082167077436_6034106545912333281_n.svg/meta-logo-primary_standardsize.svg?_nc_cat=1&ccb=1-5&_nc_sid=ad8a9d&_nc_ohc=pHWOSbvROCcAX9Xm6q_&_nc_ht=scontent.fixm1-1.fna&oh=00_AT-ny4Ayubcn6Va2Glmb671UQu75Uf-Ud8Eid3zGniiilA&oe=61E59DF9" alt="logo"  
+      style=" width: 100%; height: 100px; margin-top: 10px;" />
+      
         <br />
         <hr />
         <br />
@@ -58,8 +60,7 @@ exports = async function (changeEvent) {
          
         <br />    
      
-        <p style="margin-top: 20px; color: gray;">
-        This link expire in 10 minutes</p>
+        <h2 style="margin-top: 20px; color: gray;">Date: ${data._id}</h2>
   
         <h5>Total Income Aomunt   : <b>${data.totalIncomeAmount}</b></h5>
         <h5>Avrage Income Aomunt  : <b>${data.avrageIncome}</b></h5>
