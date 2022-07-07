@@ -1,5 +1,5 @@
 {
-   "version": 1.0.1,
+   "version": 2,
    "name": "hospital-management-system",
    "builds": [
       { "src": "app.js", "use": "@vercel/node" }
