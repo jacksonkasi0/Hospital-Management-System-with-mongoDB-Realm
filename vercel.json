@@ -1,0 +1,10 @@
+{
+   "version": 1.0.1,
+   "name": "hospital-management-system",
+   "builds": [
+      { "src": "app.js", "use": "@vercel/node" }
+   ],
+   "routes": [
+      { "src": "/(.*)", "dest": "/app.js" }
+   ]
+}
